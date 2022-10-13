@@ -1,0 +1,44 @@
+node-detect-file (1.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Fix GitHub regex
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.6.0
+
+ -- Yadd <yadd@debian.org>  Wed, 22 Sep 2021 16:55:17 +0200
+
+node-detect-file (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 13 May 2020 21:39:22 +0200
+
+node-detect-file (1.0.0-1) unstable; urgency=medium
+
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * New upstream release
+  * Bump debian/compat and std version
+  * Add extended description
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Mon, 23 Apr 2018 09:40:22 +0200
+
+node-detect-file (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #842767)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 01 Nov 2016 10:59:54 +0530
